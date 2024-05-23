@@ -1,10 +1,10 @@
 public class Nsvariables {
 
 
-    int num ;
+    int num = 10;
 
     public void type (int n){
- num = n;
+       num = n;
 
     }
 
@@ -16,6 +16,8 @@ public class Nsvariables {
     public static void main(String[] args) {
         
         Nsvariables n1 = new Nsvariables();
+        //System.out.println(num);
+    
         n1.type(5);
         n1.Display();
     }
