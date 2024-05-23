@@ -13,5 +13,17 @@ public class Rev {
 
         Collections.reverse(list1);
         System.out.println("Reversed list: " + list1);
+       
+        Character[] newCharacters = new Character[3];
+        List<Character> list2 = Arrays.asList(newCharacters);
+
+        Collections.copy(list2, list1);
+
+        System.out.println("copied list:" + list2);
+        
+      
+    
+    
+    
     }
 }
