@@ -34,7 +34,8 @@ public class StudentGrading{
             
         }
         else System.out.println("Student has failed");
-        
+        s.close(); 
     }
+    
 }
 
