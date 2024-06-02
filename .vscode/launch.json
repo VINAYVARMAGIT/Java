@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReadSetIntegers",
+            "request": "launch",
+            "mainClass": "ReadSetIntegers",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Power",
+            "request": "launch",
+            "mainClass": "Power",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "AlphabetsReverse",
+            "request": "launch",
+            "mainClass": "AlphabetsReverse",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Alphabets",
+            "request": "launch",
+            "mainClass": "Alphabets",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_Numbers",
+            "request": "launch",
+            "mainClass": "Reverse_Numbers",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "WhileLoop",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "Factorial",
             "request": "launch",
             "mainClass": "Factorial",
