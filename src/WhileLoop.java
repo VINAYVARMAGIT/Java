@@ -97,39 +97,89 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
  
-class WhileLoop
-{
-    public static void main(String[] args)
-    {
-        Scanner console = new Scanner(System.in);
+// class WhileLoop
+// {
+//     public static void main(String[] args)
+//     {
+//         Scanner console = new Scanner(System.in);
      
-        int number;
-        char choice;
-        int evenSum = 0;
-        int oddSum = 0;
+//         int number;
+//         char choice;
+//         int evenSum = 0;
+//         int oddSum = 0;
         
-        do
-        {
-            System.out.print("Enter the number ");
-            number = console.nextInt();
+//         do
+//         {
+//             System.out.print("Enter the number ");
+//             number = console.nextInt();
         
-            if( number % 2 == 0)
-            {
-                evenSum += number;
-            }
-            else
-            {
-                oddSum += number;
-            }
+//             if( number % 2 == 0)
+//             {
+//                 evenSum += number;
+//             }
+//             else
+//             {
+//                 oddSum += number;
+//             }
         
-            System.out.print("Do you want to continue y/n? ");
-            choice = console.next().charAt(0);
+//             System.out.print("Do you want to continue y/n? ");
+//             choice = console.next().charAt(0);
             
-        }while(choice=='y' || choice == 'Y');
+//         }while(choice=='y' || choice == 'Y');
         
-        System.out.println("Sum of even numbers: " + evenSum);
-        System.out.println("Sum of odd numbers: " + oddSum);
-    }  
+//         System.out.println("Sum of even numbers: " + evenSum);
+//         System.out.println("Sum of odd numbers: " + oddSum);
+//     }  
+// }
+
+// import java.util.Scanner;
+
+// class Palindrome {
+
+//     public static void main(String[] args) {
+//       Scanner s = new Scanner(System.in);
+//       System.out.print("Enter the number:");
+//       int num = s.nextInt();
+//       int dig=num;
+//       int rem =0,pal = 0,addNum =0,mulNum=1;
+
+//       while(num !=0){
+
+//         rem = num%10;
+//         addNum += rem;
+//         mulNum *= rem;
+//         pal= pal*10+ rem;
+//         num /=10;
+         
+//     }
+//     System.out.println(addNum);
+//     System.out.println(mulNum);
+//     if (dig ==pal && addNum ==mulNum)System.out.println("pal");
+//      else if ( addNum ==mulNum)System.out.println("Not palindrome but a spy num.");
+//     else System.out.println("not pal");
+
+// }
+// }
+
+import java.util.Scanner;
+
+class Neon{
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the number:");
+        int num = s.nextInt();
+        int rem =0,sum=0;
+        int sq= num*num;
+        int oriNum = num;
+        while(sq!=0){
+            
+            rem = sq%10;
+            sum += rem;
+            sq /=10;
+        }
+        if(num==sum) System.out.println("It's a neon num");
+        else System.out.println("It's not a neon num.");
+    }
 }
