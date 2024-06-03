@@ -98,8 +98,8 @@
 // }
 
 import java.util.Scanner;
-
-public class ReadSetIntegers
+ 
+class WhileLoop
 {
     public static void main(String[] args)
     {
