@@ -45,29 +45,59 @@
 //     }
 // }
 
- import java.util.Scanner;
+//  import java.util.Scanner;
 
- class Pattern{
+//  class Pattern{
+
+//   public static void main(String[] args) {
+    
+//     Scanner s = new Scanner(System.in);
+//     System.out.println("Enter the number of rows: ");
+//     int row = s.nextInt();
+//     for(int i =0; i<row; i++)
+//     {
+//       //for space 
+//       for(int j =row; j>i; j--){
+
+//         System.out.print(" ");
+//       }
+//       for (int k = 0; k<=i; k++) {
+//         System.out.print("* ");
+//       }
+//       System.out.println("");
+
+//     }
+
+
+//   }
+//  }
+
+import java.util.Scanner;
+
+class Pattern 
+{
 
   public static void main(String[] args) {
-    
     Scanner s = new Scanner(System.in);
-    System.out.println("Enter the number of rows: ");
+
+    System.out.print("Enter the number of rows: ");
+
     int row = s.nextInt();
-    for(int i =0; i<row; i++)
-    {
-      //for space 
-      for(int j =row; j>i; j--){
 
-        System.out.print(" ");
-      }
-      for (int k = 0; k<=i; k++) {
-        System.out.print("* ");
-      }
-      System.out.println("");
-
+   int i=0;
+   while (i<row) {
+    int k=row;
+    while (k>i) {
+      System.out.print(" ");
+       k--;
     }
-
-
+  int j=0;
+    while (j<=i) {
+      System.out.print("*");
+      j++;
+    }
+    i++;
+    System.out.println("");
+   }
   }
- }
+}
