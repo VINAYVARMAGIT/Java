@@ -21,6 +21,7 @@ public class AddingDigits {
           }     
         }
         System.out.println(sum);
+        System.out.println("This is the sum of the digits of the numbers.");
     }
 
 }
