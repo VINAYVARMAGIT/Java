@@ -163,23 +163,38 @@
 // }
 // }
 
+// import java.util.Scanner;
+
+// class Neon{
+//     public static void main(String[] args) {
+//         Scanner s = new Scanner(System.in);
+//         System.out.print("Enter the number:");
+//         int num = s.nextInt();
+//         int rem =0,sum=0;
+//         int sq= num*num;
+//         int oriNum = num;
+//         while(sq!=0){
+            
+//             rem = sq%10;
+//             sum += rem;
+//             sq /=10;
+//         }
+//         if(num==sum) System.out.println("It's a neon num");
+//         else System.out.println("It's not a neon num.");
+//     }
+// }
+
 import java.util.Scanner;
 
-class Neon{
+class PrimeNumbers{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the number:");
-        int num = s.nextInt();
-        int rem =0,sum=0;
-        int sq= num*num;
-        int oriNum = num;
-        while(sq!=0){
-            
-            rem = sq%10;
-            sum += rem;
-            sq /=10;
+        int n = s.nextInt();
+
+        for (int i =1;i<n; i++ ){
+            if           
+
+
         }
-        if(num==sum) System.out.println("It's a neon num");
-        else System.out.println("It's not a neon num.");
     }
 }

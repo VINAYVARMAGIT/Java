@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StrongNumber",
+            "request": "launch",
+            "mainClass": "StrongNumber",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "Neon",
             "request": "launch",
             "mainClass": "Neon",
