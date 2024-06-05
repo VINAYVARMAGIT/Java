@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LCM",
+            "request": "launch",
+            "mainClass": "LCM",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "HCF",
             "request": "launch",
             "mainClass": "HCF",
