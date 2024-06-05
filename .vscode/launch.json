@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HCF",
+            "request": "launch",
+            "mainClass": "HCF",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "Aramstrong",
             "request": "launch",
             "mainClass": "Aramstrong",
