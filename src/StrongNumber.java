@@ -14,8 +14,7 @@ public class StrongNumber {
             r = n%10;
             fact=1;
             for (int i=1; r>=i; i++){
-                fact *=i;
-                
+                fact *=i;               
             }
             tSum +=fact; 
             n/=10;          
@@ -24,7 +23,4 @@ public class StrongNumber {
         if(m == tSum)System.out.println("Strong number");
         else System.out.println("not a strong number");
     }
-
-
-
 }
