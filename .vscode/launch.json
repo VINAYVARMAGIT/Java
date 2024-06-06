@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PerfectNumbers",
+            "request": "launch",
+            "mainClass": "PerfectNumbers",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Per",
+            "request": "launch",
+            "mainClass": "Per",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "HcfOfTwoNum",
+            "request": "launch",
+            "mainClass": "HcfOfTwoNum",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "LcmForTwoNum",
+            "request": "launch",
+            "mainClass": "LcmForTwoNum",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "LCMfor",
+            "request": "launch",
+            "mainClass": "LCMfor",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Range",
+            "request": "launch",
+            "mainClass": "Range",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumbers",
+            "request": "launch",
+            "mainClass": "PrimeNumbers",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Automorphic",
+            "request": "launch",
+            "mainClass": "Automorphic",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "AutomorphicNumber",
+            "request": "launch",
+            "mainClass": "AutomorphicNumber",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "NoOfDigits",
+            "request": "launch",
+            "mainClass": "NoOfDigits",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "LCM",
             "request": "launch",
             "mainClass": "LCM",

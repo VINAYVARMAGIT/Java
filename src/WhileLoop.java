@@ -183,18 +183,3 @@
 //         else System.out.println("It's not a neon num.");
 //     }
 // }
-
-import java.util.Scanner;
-
-class PrimeNumbers{
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        int n = s.nextInt();
-
-        for (int i =1;i<n; i++ ){
-            if           
-
-
-        }
-    }
-}
