@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RightAngleTriangleOtherSide",
+            "request": "launch",
+            "mainClass": "RightAngleTriangleOtherSide",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Box",
+            "request": "launch",
+            "mainClass": "Box",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Patterns1",
+            "request": "launch",
+            "mainClass": "Patterns1",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "PerfectNumbers",
             "request": "launch",
             "mainClass": "PerfectNumbers",
