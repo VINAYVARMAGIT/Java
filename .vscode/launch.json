@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Never",
+            "request": "launch",
+            "mainClass": "Never",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "SpaceBox",
+            "request": "launch",
+            "mainClass": "SpaceBox",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "RightAngleTriangleOtherSide",
             "request": "launch",
             "mainClass": "RightAngleTriangleOtherSide",
