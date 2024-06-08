@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Rhombus",
+            "request": "launch",
+            "mainClass": "Rhombus",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "Tri",
+            "request": "launch",
+            "mainClass": "Tri",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber1",
+            "request": "launch",
+            "mainClass": "PrimeNumber1",
+            "projectName": "JavaPractice_590e42d"
+        },
+        {
+            "type": "java",
             "name": "Never",
             "request": "launch",
             "mainClass": "Never",
