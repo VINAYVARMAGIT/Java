@@ -136,7 +136,7 @@ class Rhombus{
          
        
         for (int i = 0; i < n; i++) { 
-            
+             
             if ( i<(n/2)+1) {             
             for (int j = 1; j < n-i; j++) {             
                 System.out.print(" ");              
@@ -154,9 +154,7 @@ class Rhombus{
             System.out.print("*");
         }
         m = m-2;
-    }
-            
-        
+    }     
             System.out.println("");
 
             }
