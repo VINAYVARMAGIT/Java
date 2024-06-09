@@ -13,7 +13,7 @@ public class StrongNumber {
         while (n>0) {
             r = n%10;
             fact=1;
-            for (int i=1; r>=i; i++){
+            for (int i=1; i<=r; i++){
                 fact *=i;               
             }
             tSum +=fact; 

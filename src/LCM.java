@@ -30,7 +30,7 @@ class Llcm{
     int b = s.nextInt();
 
     int big = a>b?a:b;
-int anoBig = big;
+    int anoBig = big;
      
     for(int i =1;i<=a;i++){
     if (big%a==0 && big%b==0) {
