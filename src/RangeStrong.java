@@ -14,14 +14,12 @@ public class RangeStrong {
                int  r = num%10;
                 int fact=1;
 
-                for (int j = 1; j <= r; j++) {                  
-                    fact *=j;                 
-                }
+                for (int j = 1; j <= r; j++)  fact *=j;                 
+                
                 sum += fact;
                 num /=10;
             }
             if (i ==sum) System.out.println(i);              
-                       
         }      
     }
 }
