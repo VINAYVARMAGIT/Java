@@ -13,8 +13,7 @@ public class RevAlpha {
         for (int i = 0; i < rows; i++) {
           
              
-            if (i%2==0) { 
-                ;                 
+            if (i%2==0) {                 
                 char name = letter;
                 for (int j = 0; j <= i; j++) {
                 System.out.print(letter);
@@ -22,8 +21,7 @@ public class RevAlpha {
             }
         }
         else{
-
-            char name = (char) (letter +i);          
+          char name = (char) (letter +i);          
             for (int j = 0; j <= i; j++) {
                 System.out.print(name);
              name--;     
