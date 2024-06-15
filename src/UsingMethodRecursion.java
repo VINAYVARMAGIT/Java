@@ -52,3 +52,19 @@ class PalindromeUsingMethods{
         return reversed(n/10,rev);
     }
 }
+
+class SumOfNumberToSingleDigit{
+       public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter the number to be converted into single digit:");
+        int n = s.nextInt();
+        System.out.println(added(n,0));
+       }
+
+       static int added(int n,int num){
+         if (n==0) return num;
+         int rem = n%10;
+         num = num +rem;
+         return added(n/10, num);
+       }
+}
