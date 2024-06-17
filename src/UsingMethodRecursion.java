@@ -64,7 +64,36 @@ class SumOfNumberToSingleDigit{
        static int added(int n,int num){
          if (n==0) return num;
          int rem = n%10;
-         num = num +rem;
-         return added(n/10, num);
+         return added(n/10, num+rem);
        }
 }
+
+class ArmstrongNumberUsingMethods{
+    public static void main(String[] args) {
+        
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter the Number to check it:");
+        int n = s.nextInt();
+        int numberPower = numberPower(n, 0);
+        //System.out.println(numberPower);
+        double number = number(n, numberPower, 0);
+
+        if (number == n) System.out.println("It's a armstrong number.");
+        else System.out.println("It's not a armstrong number.");
+
+    }
+
+    static double number(int n,int numberPower,double num){
+        if(n==0) return num;
+      int rem = n%10;
+      num = num +Math.pow(rem, numberPower);
+      return number(n/10, numberPower, num);
+    }
+
+static int numberPower(int n,int count){
+    if (n==0) return count;
+  return numberPower(n/10, count+1);
+}   
+}
+
+
