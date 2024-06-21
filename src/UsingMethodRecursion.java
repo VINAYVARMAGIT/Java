@@ -97,3 +97,26 @@ static int numberPower(int n,int count){
 }
 
 
+class FibannocciSeries{
+    public static void main(String[] args) {
+        
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter the Number:");
+        int n = s.nextInt();
+        System.out.println("The fibannocci series value of "+ n+ "number's is " + loop(n, 0, 0, 1) );
+
+    }
+    static int loop(int n,int num,int a,int b){
+
+        if(n==0) return b; 
+        num = a+b;
+         a=b;
+         b=num; 
+     return loop(--n, num, a, b);
+    }
+
+}
+
+
+// 0 1 1 2 3 5 8 13 
