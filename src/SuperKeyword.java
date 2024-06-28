@@ -20,13 +20,24 @@ class B extends A{
         System.out.println("Constructor of B");
     }
 }
+class C extends B{
+    static{
+        System.out.println("static of c");
+    }
+    {
+        System.out.println("Non Static of c");
+    }
+    C(){
+        System.out.println("Constructor of c");
+    }
+}
 
 
 class SuperKeyword {
+
     public static void main(String[] args) {
-        new B();
-        System.out.println("");
-        new A();
+        new C();
+        
     }
 
 }
