@@ -5,7 +5,7 @@ class A{
     {
         System.out.println("Non Static of a");
     }
-    A(){
+    A(int i){
         System.out.println("Constructor of A");
     }
 }
@@ -17,6 +17,7 @@ class B extends A{
         System.out.println("Non Static of b");
     }
     B(){
+        super(0);
         System.out.println("Constructor of B");
     }
 }
@@ -28,6 +29,7 @@ class C extends B{
         System.out.println("Non Static of c");
     }
     C(){
+        
         System.out.println("Constructor of c");
     }
 }
@@ -41,3 +43,5 @@ class SuperKeyword {
     }
 
 }
+
+
