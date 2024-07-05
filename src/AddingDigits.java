@@ -6,6 +6,9 @@ public class AddingDigits {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        
+        
+
 
         System.out.print("Enter the number: ");
         int num = s.nextInt();
@@ -21,7 +24,6 @@ public class AddingDigits {
           }     
         }
         System.out.println(sum);
-        System.out.println("This is the sum of the digits of the numbers.");
+        System.out.println(sum +" is the sum of the digits of the numbers.");
     }
-
 }
