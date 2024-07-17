@@ -1,0 +1,17 @@
+There are 4 properties of that are in the OOPS concept of java:
+They are:
+1.Inheritance
+2.Polymorphism
+3.Abstraction
+4.Encapsulaton
+
+INHERITANCE:
+-The subclass inherits all the properties(data members,member properties) from the super class 
+-We use extends keyword to extends the super class properties  
+
+
+-If we have a super class with some varibales and is initialized in the constructer but when we create a ref type of varaible of a sub class 
+and create a object of the super class where we initialize the variables of the super class one's when trying to acess the sub class variables the 
+class doesn't call and throws an error as it doesn't have a any where the varaible is initialized 
+
+Multiple Inheritance doesn't happen in this as it wil have ambiguity problem 
