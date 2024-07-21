@@ -12,7 +12,8 @@ public class ConsecutiveLetters {
 for (int i = 1; i < name.length(); i++) {
 
     if (name.charAt(i-1)==name.charAt(i)) {
-        newName += '$';
+        // newName += '$';
+        newName +=' ';
     }
     else{
         newName +=name.charAt(i);
