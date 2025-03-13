@@ -134,7 +134,7 @@ class Carry implements Cloneable{
     }
    
 }
-class Main{
+class Main1{
     public static void main(String[] args) throws CloneNotSupportedException {
         Carry c = new Carry(5, "Vinay");
         System.out.println(c);
