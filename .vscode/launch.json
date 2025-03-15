@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
+            "name": "Test11",
+            "request": "launch",
+            "mainClass": "Test11",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
             "name": "Bb1",
             "request": "launch",
             "mainClass": "Bb1",
