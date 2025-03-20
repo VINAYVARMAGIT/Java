@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstThree",
+            "request": "launch",
+            "mainClass": "FirstThree",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
             "name": "RemoveDuplicateStringArray",
             "request": "launch",
             "mainClass": "RemoveDuplicateStringArray",
