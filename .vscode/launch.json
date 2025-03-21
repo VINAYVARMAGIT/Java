@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestStudents",
+            "request": "launch",
+            "mainClass": "topics.comparator_and_comparable.TestStudents",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
             "name": "FindMissing",
             "request": "launch",
             "mainClass": "FindMissing",
