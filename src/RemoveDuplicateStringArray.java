@@ -3,21 +3,31 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 class RemoveDuplicateStringArray{
     public static void main(String[] args) {
         String s1[]={"vinay","varma","siddu","sid"};
         String s2[]={"pro","vinay","jam","sid"};
 
-        String s3[]= removeDuplicates(s1,s2);
-        for (String string : s3) {
-            System.out.print(string+" ");
-        }
-  System.out.println();
-        Arrays.sort(s3);
-        for (String string : s3) {
-            System.out.print(string+" ");
-        }
+    //    Stream sortedStream= Arrays.stream(s1).sorted(Comparator.reverseOrder());
+    //    //sorted(Comparator.comparing(String::length));
+
+    //    sortedStream.forEach(System.out::println);
+
+          List<String> l =  Arrays.stream(s1).filter(word->word.charAt(0)=='v').collect(Collectors.toList());
+
+          l.forEach(System.out::println);
+
+//         String s3[]= removeDuplicates(s1,s2);
+//         for (String string : s3) {
+//             System.out.print(string+" ");
+//         }
+//   System.out.println();
+//         Arrays.sort(s3);
+//         for (String string : s3) {
+//             System.out.print(string+" ");
+//         }
     }
 
     public static String[] removeDuplicates(String[] s1,String [] s2){

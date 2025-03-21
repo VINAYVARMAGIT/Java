@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindMissing",
+            "request": "launch",
+            "mainClass": "FindMissing",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "OddEven",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
             "name": "FirstThree",
             "request": "launch",
             "mainClass": "FirstThree",
