@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeadLockAnotherExample",
+            "request": "launch",
+            "mainClass": "topics.multithreading.DeadLockAnotherExample",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
+            "name": "DeadLockExample",
+            "request": "launch",
+            "mainClass": "topics.multithreading.DeadLockExample",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
             "name": "ReadFile",
             "request": "launch",
             "mainClass": "topics.file_handling.ReadFile",
