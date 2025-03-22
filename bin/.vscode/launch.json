@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreadCommunication",
+            "request": "launch",
+            "mainClass": "topics.multithreading.ThreadCommunication",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
             "name": "DeadLockAnotherExample",
             "request": "launch",
             "mainClass": "topics.multithreading.DeadLockAnotherExample",
