@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BlockedStateDemo",
+            "request": "launch",
+            "mainClass": "topics.multithreading.BlockedStateDemo",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
+            "name": "States",
+            "request": "launch",
+            "mainClass": "topics.multithreading.States",
+            "projectName": "JavaPractice"
+        },
+        {
+            "type": "java",
             "name": "ThreadCommunication",
             "request": "launch",
             "mainClass": "topics.multithreading.ThreadCommunication",
